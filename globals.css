@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --bg1: #490C45; /* dark magenta */
+  --bg2: #2C0A65; /* deep purple */
+  --card: rgba(20, 12, 40, 0.55);
+  --text: #EDE7F6;
+  --muted: rgba(237, 231, 246, 0.75);
+  --pill: #2a0712; /* maroon */
+  --pill2: #071c2a; /* blue/teal */
+}
+
+html, body {
+  height: 100%;
+}
+
+body {
+  color: var(--text);
+  background:
+    radial-gradient(1000px 700px at 15% 10%, rgba(255,80,150,0.25), transparent 60%),
+    radial-gradient(900px 700px at 80% 30%, rgba(120,80,255,0.22), transparent 60%),
+    linear-gradient(180deg, var(--bg1), var(--bg2));
+}
+
+.safe-area {
+  padding-bottom: env(safe-area-inset-bottom);
+}

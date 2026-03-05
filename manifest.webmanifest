@@ -1,0 +1,9 @@
+{
+  "name": "genial dumm",
+  "short_name": "genial dumm",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#2C0A65",
+  "theme_color": "#2C0A65",
+  "icons": []
+}
